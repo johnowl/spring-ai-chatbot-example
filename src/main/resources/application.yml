@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo-spring-ai
+  ai:
+    openai:
+      api-key:  ${OPENAI_API_KEY}
+    vectorstore:
+      pgvector:
+        initialize-schema: true
